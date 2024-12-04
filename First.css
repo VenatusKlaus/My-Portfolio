@@ -1,0 +1,131 @@
+body{
+    background-image: url(/Photohero-2048x580.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar{
+    background-color: aqua;
+    display: flex;
+    gap: 1cm;
+    h1{
+        align-items: center;
+        justify-content: center;
+        background-color: brown;
+        margin-top: 5%;
+        margin-left: 3%;
+        padding: 2%;
+        font-size: 30px;
+        border-radius: 50%;
+        &:hover{
+            background-color: rgb(75, 35, 35);
+            color: red;
+            transition: 0.5s;
+            border-radius: 30%;
+        }
+    }
+    ul{
+        display: flex;
+        padding-top: 15%;
+        gap: 3cm;
+        li{
+            list-style: none;
+            font-size: 30px;
+            &:hover{
+                background-color: brown;
+            }
+        }
+        a{
+            text-decoration: none;
+            &:hover{
+                color: aliceblue;
+            }
+        }
+    }
+}
+input{
+    width: 80%;
+    margin: 2%;
+    padding: 8px;
+    &:hover{
+        border: 2px solid brown
+    }
+}
+button{
+    padding: 8px;
+    cursor: pointer;
+}
+.sc{
+    display: flex;
+    .fl{
+        background-color: blueviolet;
+        width: 70%;
+    }
+    h2{
+        text-align: center;
+    }
+    p{
+        margin: 4%;
+    }
+    .container{
+        position: relative;
+        height: 300px;
+        width: 300px;
+        .image1{
+            height: 80%;
+            width: 100%;
+        }
+        .image2{
+            top: 30%;
+            left: 50%;
+            height: 70%;
+            width: 300px;
+            position: absolute;
+        }
+        img{
+            border-radius: 50%;
+        }
+    }
+}
+.ma{
+    background-color: rgb(33, 31, 31);
+    display: flex;
+    .s1{
+        background-image: url(/DSC01759.avif);
+        margin: 1.7%;
+        width: 33.3%;
+        h3{
+            text-align: center;
+            text-decoration: underline;
+        }
+        p{
+            margin: 3%;
+        }
+    }
+    .s2{
+        background-image: url(/DSC01759.avif);
+        margin: 1.7%;
+        width: 33.3%;
+        h3{
+            text-align: center;
+            text-decoration: underline;
+        }
+        p{
+            margin: 3%;
+        }
+    }
+    .s3{
+        background-image: url(/DSC01759.avif);
+        margin: 1.7%;
+        width: 33.3%;
+        h3{
+            text-align: center;
+            text-decoration: underline;
+        }
+        p{
+            margin: 3%;
+        }
+    }
+}
