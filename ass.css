@@ -53,6 +53,7 @@ h1{
     p{
         font-family: Arial, Helvetica, sans-serif;
         margin: 50px;
+        padding: 30px;
     }
     li{
         list-style: none;
